@@ -15,13 +15,13 @@ public class ThrowTest {
 		return x / y;
 	}
 	public static void main(String args[]) {
-		try {
-			System.out.println(div(2500,50));
-		} catch (ArithmeticException e) {
-			System.out.println("Error --> Divide by Zero !");
+//		try {
+//			System.out.println(div(2500,0));
+//		} catch (ArithmeticException e) {
+//			System.out.println("Error --> Divide by Zero !");
 		}
 	}
-}
+
 
     
 
